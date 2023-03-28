@@ -6,7 +6,7 @@ import { CustomPDFLoader } from '@/utils/customPDFLoader';
 import { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE } from '@/config/pinecone';
 
 /* Name of directory to retrieve files from. You can change this as required */
-const filePath = 'docs/Buschmeyer et al 2023 AI Augemented Intelligence Review.pdf';
+const filePath = 'docs/Kadavath et al_2022_Language Models (Mostly) Know What They Know.pdf';
 
 export const run = async () => {
   try {

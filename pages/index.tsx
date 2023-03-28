@@ -27,7 +27,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to learn about this paper?',
+        message: 'Hi, How can i help you today?',
         type: 'apiMessage',
       },
     ],
@@ -51,7 +51,7 @@ export default function Home() {
     setError(null);
 
     if (!query) {
-      alert('Please input a question');
+      alert('Bitte die Frage hier eingeben');
       return;
     }
 
@@ -282,7 +282,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What is this paper about?'
+                        : 'What is the topic of the given paper?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
