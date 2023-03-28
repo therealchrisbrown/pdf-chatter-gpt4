@@ -2,7 +2,7 @@
 
 Make your PDF chatable.
 
-Result: Low Accuracy with gpt-3.5-turbo model. 
+Result: Low Accuracy with gpt-3.5-turbo model. s
 
 
 ## Credit
